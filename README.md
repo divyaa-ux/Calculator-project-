@@ -28,4 +28,4 @@ This is a simple and responsive calculator built using HTML, CSS, and JavaScript
 ![JavaScript Calculator](20260618_122405-COLLAGE.jpg)
 
 ## 👩‍💻 Author
-Divya Singh
+Divya 
