@@ -1,0 +1,46 @@
+body{
+  background:black;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  margin:0;
+  font-family:Arial;
+}
+
+.calc{
+  width:300px;
+  background:#222;
+  padding:15px;
+  border-radius:10px;
+}
+
+#screen{
+  width:100%;
+  height:50px;
+  font-size:22px;
+  margin-bottom:10px;
+}
+
+.btns{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:5px;
+}
+
+button{
+  height:50px;
+  font-size:18px;
+  cursor:pointer;
+}
+
+#history{
+  color:white;
+  margin-top:15px;
+  max-height:150px;
+  overflow:auto;
+}
+
+#history p{
+  margin:4px 0;
+}
